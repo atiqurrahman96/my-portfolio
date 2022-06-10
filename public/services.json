@@ -1,0 +1,20 @@
+[
+    {
+        "_id": "1",
+        "picture": "https://i.ibb.co/TWv0fkv/html-and-css.png",
+        "name": "Plain HTMl and CSS",
+        "about": "I provide Web Development by using many ways one of its plain HTML and CSS.  I am fond of developing websites by HTML and CSS."
+    },
+    {
+        "_id": "2",
+        "picture": "https://i.ibb.co/XypyT7M/mern-stack.png",
+        "name": "MERN stack Web Development",
+        "about": "As a MERN stack developer, I would love to develop web pages by using ReactJS, expressJs, NodeJs, mongoDB.  "
+    },
+    {
+        "_id": "3",
+        "picture": "https://i.ibb.co/JBD0YTX/web-react.png",
+        "name": "React Development",
+        "about": "I also work with react. I would like to use react for building webpages."
+    }
+]
