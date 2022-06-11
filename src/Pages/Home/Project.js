@@ -1,9 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 
 
 const Project = ({ project }) => {
-    const { _id, image, name, technologies, clientSide, liveSide, serverSide } = project;
+    const { _id, image, name, technologies, clientSide, liveSide } = project;
 
     return (
         <div>

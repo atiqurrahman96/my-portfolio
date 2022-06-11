@@ -26,7 +26,7 @@ const GetService = () => {
             <div className='grid sm:grid-cols-1 md:grid-cols-2 bg-orange-300 mx-10' >
                 <div class="card w-96 mx-auto bg-base-300 shadow-xl my-2">
 
-                    <div class=" card-body text-center">
+                    <div class=" card-body text-center" >
                         <h2 class="text-4xl font-bold">Get in Touch</h2>
                         <div className='flex justify-center'>
                             <a className='mx-2' href="https://www.linkedin.com/in/atiqur-rahman-8aa140231/"><FaLinkedin size='2rem' /></a>
