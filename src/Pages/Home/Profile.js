@@ -8,14 +8,19 @@ import Typical from 'react-typical'
 const Profile = () => {
     return (
         <div>
-            <div class="hero min-h-screen bg-gray-400 px-20">
+            <div class="hero min-h-screen bg-gray-500 px-20">
                 <div class="hero-content flex-col lg:flex-row-reverse">
-                    <div class="avatar">
+                    <div class="avatar" data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="2000">
                         <div class="rounded-full w-64" >
                             <img src={image} />
                         </div>
                     </div>
-                    <div>
+                    <div data-aos="fade-left"
+                        data-aos-anchor="#example-anchor"
+                        data-aos-offset="500"
+                        data-aos-duration="1500">
                         <h1 class="text-5xl text-white py-2">Hello, This is <span className='font-bold'>Atiqur Rahman</span></h1>
                         <div className='flex'>
                             <a className='mx-2' href="https://www.facebook.com/kaw.shik.925"><FaFacebookSquare size='2rem' /></a>

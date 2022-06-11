@@ -18,8 +18,8 @@ const Skills = () => {
 
     ]
     return (
-        <div>
-            <h1 className="font-bold text-3xl text-center">
+        <div className='bg-black'>
+            <h1 className="font-bold text-3xl text-center text-orange-600">
                 I have been working on many technologies some of which I have mentioned here:-
             </h1>
             <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ml-5 px-5 mt-5'>

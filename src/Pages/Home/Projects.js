@@ -12,9 +12,9 @@ const Projects = () => {
         { _id: 3, image: photography, name: 'Willy Loman Photography Corner' },
     ]
     return (
-        <div>
-            <h1 className='text-center font-bold text-2xl mt-5 text-blue-500'>My Projects</h1>
-            <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-5'>
+        <div className='bg-gray-700'>
+            <h1 className='text-center font-bold text-2xl  text-orange-400'>My Projects</h1>
+            <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3  p-7'>
                 {
                     projects.map(project => <Project
                         key={project._id}

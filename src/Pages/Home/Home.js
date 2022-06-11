@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Footer';
 import GetService from './GetService';
 import Profile from './Profile';
 import Projects from './Projects';
@@ -13,6 +14,7 @@ const Home = () => {
             <Skills></Skills>
             <Projects></Projects>
             <GetService></GetService>
+            <Footer></Footer>
 
         </div>
     );
