@@ -24,7 +24,7 @@ const GetService = () => {
     return (
         <div className='bg-black'>
             <div className='grid sm:grid-cols-1 md:grid-cols-2 bg-orange-300 mx-10' >
-                <div class="card bg-base-300 shadow-xl my-2">
+                <div class="card w-96 mx-auto bg-base-300 shadow-xl my-2">
 
                     <div class=" card-body text-center">
                         <h2 class="text-4xl font-bold">Get in Touch</h2>
@@ -36,7 +36,7 @@ const GetService = () => {
                     </div>
                 </div>
                 <div className='mx-5'>
-                    <div class="card bg-base-300 shadow-xl ">
+                    <div class="card w-96 bg-base-300 shadow-xl text-center mx-auto">
 
                         <div class="card-body">
                             <h2 class="card-title">Send Email</h2>
