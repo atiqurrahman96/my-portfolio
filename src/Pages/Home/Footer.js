@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { AiFillCopyrightCircle } from "react-icons/ai";
 const Footer = () => {
 
     return (
@@ -24,9 +24,14 @@ const Footer = () => {
                     <a class="#">Terms of use</a>
                     <a class="#">Privacy policy</a>
                     <a class="#">Cookie policy</a>
+
                 </div>
 
+
+
+
             </footer>
+
         </div>
     );
 };
